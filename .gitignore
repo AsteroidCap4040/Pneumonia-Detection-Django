@@ -1,0 +1,85 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+ENV/
+.myvenv/
+.venv/
+*.env
+*.venv
+pip-wheel-metadata/
+
+# =========================
+# Django
+# =========================
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.mo
+media/
+staticfiles/
+static_cdn/
+local_settings.py
+
+# =========================
+# Model Files / ML Artifacts
+# =========================
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.npy
+*.npz
+model/
+!model/__init__.py  # keep model folder if needed
+
+# =========================
+# Build / IDE / OS
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.bak
+*.swp
+*.tmp
+*.log
+*.gz
+*.zip
+*.tar
+*.rar
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+*.json
+*.yaml
+*.yml
+secrets.json
+
+# =========================
+# Node / Frontend (if applicable)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
