@@ -1,1 +1,1 @@
-web: gunicorn pneumonia.wsgi
+web: gunicorn pneumonia.wsgi --bind 0.0.0.0:$PORT
